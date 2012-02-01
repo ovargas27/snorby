@@ -20,6 +20,7 @@ bin
 pkg
 rdoc
 tmtags
+config/database.yml
 coverage
 tmp/pids/
 example.rb
