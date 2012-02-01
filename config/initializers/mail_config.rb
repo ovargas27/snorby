@@ -23,7 +23,7 @@
 #   :arguments => '-i -t'
 # }
 
-ActionMailer::Base.perform_deliveries = true
-ActionMailer::Base.raise_delivery_errors = true
+ActionMailer::Base.perform_deliveries = false
+ActionMailer::Base.raise_delivery_errors = false
 
 # Mail.register_interceptor(DevelopmentMailInterceptor) if Rails.env.development?
